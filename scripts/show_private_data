@@ -1,0 +1,3 @@
+#!/bin/bash
+
+grep "Private Data" $1 | grep -v "Heap" | grep "^  " | grep -v "Reserved" | grep -v "No access" | grep -v "Guard" 

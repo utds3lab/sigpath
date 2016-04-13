@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -name "*.stacks" -exec cp /dev/null {} \;

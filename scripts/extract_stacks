@@ -1,0 +1,4 @@
+#!/bin/bash
+
+./show_stacks $1 > $1.stacks
+rename "s/.txt.stacks$/.stacks/" *

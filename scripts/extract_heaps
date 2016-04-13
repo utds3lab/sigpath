@@ -1,0 +1,4 @@
+#!/bin/bash
+
+./show_heaps $1 > $1.heaps
+rename "s/.txt.heaps$/.heaps/" *

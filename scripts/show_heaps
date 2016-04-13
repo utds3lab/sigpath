@@ -1,0 +1,4 @@
+#!/bin/bash
+
+grep -E "^[0-9a-fA-F]{8}   Heap \(Private" $1
+

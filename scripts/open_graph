@@ -1,0 +1,5 @@
+#!/bin/bash
+
+dot -Tpdf $1.dot -o $1.pdf
+evince $1.pdf
+

@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -name "*.modules" -exec cp /dev/null {} \;

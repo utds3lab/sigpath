@@ -1,0 +1,4 @@
+#!/bin/bash
+
+./show_private_data $1 > $1.pdata
+rename "s/.txt.pdata$/.pdata/" *
